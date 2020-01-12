@@ -87,7 +87,7 @@ const getSymbols = () => {
 	return getListValue('symbol', signsData);
 };
 
-const getNames = () => {
+const getNames = (language) => {
 	let signsLocale;
 	try {
 		signsLocale = Object.values(require(`./locales/${language}/zodiac.json`));
