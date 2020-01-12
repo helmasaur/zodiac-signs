@@ -6,3 +6,4 @@ const zodiac = require('..')();
 // console.log(zodiac.getSignByName('cancer'));
 // console.log(zodiac.getElements());
 // console.log(zodiac.getNames());
+// console.log(zodiac.getSignBySymbol('♋'));

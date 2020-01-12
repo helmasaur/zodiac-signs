@@ -6,6 +6,9 @@ module.exports = defaultLanguage => {
 		getSignByName: (signName = getSignByDate().name.toLowerCase(), language = defaultLanguage) => {
 			return getSignByName(signName, language);
 		},
+		getSignBySymbol: (signSymbol, language = defaultLanguage) => {
+			return getSignBySymbol(signSymbol, language);
+		},
 		getSymbols: () => {
 			return getSymbols();
 		},
@@ -48,7 +51,19 @@ const getSignByDate = (day = new Date().getDate(), month = new Date().getMonth()
 };
 
 const getSignByName = (signName, language) => {
-	if (!getNames().includes(signName.charAt(0).toUpperCase() + signName.slice(1))) {
+	const index = getNames().indexOf(signName.charAt(0).toUpperCase() + signName.slice(1));
+
+	return getSignByIndex(index, language);
+};
+
+const getSignBySymbol = (signSymbol, language) => {
+	const index = getSymbols().indexOf(signSymbol);
+
+	return getSignByIndex(index, language);
+};
+
+const getSignByIndex = (index, language) => {
+	if (index === -1) {
 		return -2;
 	}
 
@@ -60,15 +75,11 @@ const getSignByName = (signName, language) => {
 		signsLocale = Object.values(require('./locales/en/zodiac.json'));
 	}
 
-	const i = signsLocale.findIndex(sign => {
-		return sign.name.toLowerCase() === signName;
-	});
-
-	let sign = Object.assign(signsLocale[i], signsData[i]);
+	let sign = Object.assign(signsLocale[index], signsData[index]);
 	sign = getElement(sign, language);
 
 	return sign;
-};
+}
 
 const getSymbols = () => {
 	const signsData = require('./data/zodiac.json');
