@@ -6,8 +6,8 @@
 	},
 	"taurus": {
 		"name": "Taurus",
-		"stone": "",
-		"element": "sapphire"
+		"element": 1,
+		"stone": "sapphire"
 	},
 	"gemini": {
 		"name": "Gemini",
