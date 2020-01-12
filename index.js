@@ -1,0 +1,126 @@
+module.exports = defaultLanguage => {
+	return {
+		getSignByDate: (day, month, language = defaultLanguage) => {
+			return getSignByDate(day, month, language);
+		},
+		getSignByName: (signName = getSignByDate().name.toLowerCase(), language = defaultLanguage) => {
+			return getSignByName(signName, language);
+		},
+		getSymbols: () => {
+			return getSymbols();
+		},
+		getNames: (language = defaultLanguage) => {
+			return getNames(language);
+		},
+		getElements: (language = defaultLanguage) => {
+			return getElements(language);
+		}
+	}
+};
+
+const getSignByDate = (day = new Date().getDate(), month = new Date().getMonth() + 1, language) => {
+	const date = new Date(`2000-${month}-${day}`);
+	if (date.toString() === 'Invalid Date') {
+		return -1;
+	}
+
+	const signsData = Object.values(require('./data/zodiac.json'));
+	let signsLocale;
+	try {
+		signsLocale = Object.values(require(`./locales/${language}/zodiac.json`));
+	} catch {
+		signsLocale = Object.values(require('./locales/en/zodiac.json'));
+	}
+
+	let dateMin;
+	let dateMax;
+	const i = signsData.findIndex(sign => {
+		dateMin = new Date(sign.dateMin);
+		dateMax = new Date(sign.dateMax);
+
+		return date.getDate() >= dateMin.getDate() && date.getMonth() == dateMin.getMonth() || date.getDate() <= dateMax.getDate() && date.getMonth() === dateMax.getMonth();
+	});
+
+	let sign = Object.assign(signsLocale[i], signsData[i]);
+	sign = getElement(sign);
+	
+	return sign;
+};
+
+const getSignByName = (signName, language) => {
+	if (!getNames().includes(signName.charAt(0).toUpperCase() + signName.slice(1))) {
+		return -2;
+	}
+
+	const signsData = Object.values(require('./data/zodiac.json'));
+	let signsLocale;
+	try {
+		signsLocale = Object.values(require(`./locales/${language}/zodiac.json`));
+	} catch {
+		signsLocale = Object.values(require('./locales/en/zodiac.json'));
+	}
+
+	const i = signsLocale.findIndex(sign => {
+		return sign.name.toLowerCase() === signName;
+	});
+
+	let sign = Object.assign(signsLocale[i], signsData[i]);
+	sign = getElement(sign, language);
+
+	return sign;
+};
+
+const getSymbols = () => {
+	const signsData = require('./data/zodiac.json');
+
+	return getListValue('symbol', signsData);
+};
+
+const getNames = () => {
+	let signsLocale;
+	try {
+		signsLocale = Object.values(require(`./locales/${language}/zodiac.json`));
+	} catch {
+		signsLocale = Object.values(require('./locales/en/zodiac.json'));
+	}
+
+	return getListValue('name', signsLocale);
+};
+
+const getElements = (language) => {
+	let elementsData;
+	try {
+		elementsData = Object.values(require(`./locales/${language}/elements.json`));
+	} catch {
+		elementsData = Object.values(require('./locales/en/elements.json'));
+	}
+
+	return elementsData;
+};
+
+const getListValue = (key, data) => {
+	data = Object.values(data);
+	const values = [];
+	
+	data.forEach(value => {
+		values.push(value[key]);
+	});
+
+	return values;
+};
+
+const getElement = (sign, language) => {
+	let elementsData;
+	try {
+		elementsData = require(`./locales/${language}/elements.json`);
+	} catch {
+		elementsData = require('./locales/en/elements.json');
+	}
+
+	sign.element = elementsData[sign.element];
+
+	return sign;
+};
+
+const parseDate = (language) => {
+};
