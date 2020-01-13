@@ -13,6 +13,15 @@
     "type": "git",
     "url": "git+https://github.com/Helmasaur/Zodiac-signs.git"
   },
+  "keywords": [
+    "astrology",
+    "birthstone",
+    "calendar",
+    "horoscope",
+    "sign",
+    "stone",
+    "zodiac"
+  ],
   "author": "Helmasaur",
   "license": "MIT",
   "bugs": {
