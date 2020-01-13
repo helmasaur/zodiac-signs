@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Helmasaur/Zodiac-signs/issues"
   },
-  "homepage": "https://github.com/Helmasaur/Zodiac-signs#readme"
+  "homepage": "https://github.com/Helmasaur/Zodiac-signs#readme",
+  "devDependencies": {
+    "mocha": "^7.0.0"
+  }
 }
