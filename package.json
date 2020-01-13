@@ -1,7 +1,7 @@
 {
   "name": "zodiac-signs",
   "version": "1.0.0",
-  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://img.shields.io/npm/v/birthgem.svg)](https://www.npmjs.com/package/zodiac)",
+  "description": "Provides a zodiac sign depending a birthday and much more.",
   "main": "index.js",
   "directories": {
     "test": "test"
