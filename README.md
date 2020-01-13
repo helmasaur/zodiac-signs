@@ -35,9 +35,9 @@ const zodiac = require('zodiac-signs')();
 // Returns the zodiac sign's information of the actual day
 console.log(zodiac.getSignByDate());
 // Returns the zodiac sign's information of the 22 of June
-console.log(zodiac.getSignByDate(22, 6));
+console.log(zodiac.getSignByDate({ day: 22, month: 6 }));
 // Overload the default language (format xx-YY sets (format xx)
-console.log(zodiac.getSignByDate(22, 6, 'fr'));
+console.log(zodiac.getSignByDate({ day: 22, month: 6 }, 'fr'));
 ```
 ### Getting a zodiac sign from a name or symbol
 
