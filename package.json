@@ -1,6 +1,6 @@
 {
   "name": "zodiac-signs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides a zodiac sign depending a birthday and much more.",
   "main": "index.js",
   "directories": {
