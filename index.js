@@ -45,7 +45,7 @@ const getSignByDate = ({ day, month }, language) => {
 	});
 
 	let sign = Object.assign(signsLocale[i], signsData[i]);
-	sign = getElement(sign);
+	sign = getElement(sign, language);
 	
 	return sign;
 };
@@ -55,7 +55,7 @@ const getSignByName = (signName, language) => {
 		return -2;
 	}
 
-	const index = getNames().indexOf(signName.charAt(0).toUpperCase() + signName.slice(1));
+	const index = getNames(language).indexOf(signName.charAt(0).toUpperCase() + signName.slice(1));
 
 	return getSignByIndex(index, language);
 };
