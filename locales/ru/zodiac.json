@@ -1,0 +1,62 @@
+{
+	"aries": {
+		"name": "Овен",
+		"element": 0,
+		"stone": "гелиотроп"
+	},
+	"taurus": {
+		"name": "Телец",
+		"element": 1,
+		"stone": "сапфир"
+	},
+	"gemini": {
+		"name": "Близнецы",
+		"element": 2,
+		"stone": "агат"
+	},
+	"cancer": {
+		"name": "Рак",
+		"element": 3,
+		"stone": "изумруд"
+	},
+	"leo": {
+		"name": "Лев",
+		"element": 0,
+		"stone": "оникс"
+	},
+	"virgo": {
+		"name": "Дева",
+		"element": 1,
+		"stone": "сердолик"
+	},
+	"libra": {
+		"name": "Весы",
+		"element": 2,
+		"stone": "хризолит"
+	},
+	"scorpio": {
+		"name": "Скорпион",
+		"element": 3,
+		"stone": "берилл"
+	},
+	"sagittarius": {
+		"name": "Стрелец",
+		"element": 0,
+		"stone": "топаз"
+	},
+	"capricorn": {
+		"name": "Козерог",
+		"element": 1,
+		"stone": "рубин"
+	},
+	"aquarius": {
+		"name": "Водолей",
+		"element": 2,
+		"stone": "гранат"
+	},
+	"pisces": {
+		"name": "Рыбы",
+		"element": 3,
+		"stone": "аметист"
+	}
+}
