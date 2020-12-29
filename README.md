@@ -80,10 +80,11 @@ For the moment, the only avaible languages are English and French.
 
 Obviously, you are free to participate to the translation in any other language.
 
-### Avaible languages
+### Available languages
 
 - English
 - French
+- Russian
 
 ## Thanks
 
