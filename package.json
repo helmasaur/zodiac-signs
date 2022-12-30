@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/Helmasaur/Zodiac-signs#readme",
   "devDependencies": {
-    "mocha": "^7.0.0"
+    "mocha": "^10.2.0"
   }
 }
