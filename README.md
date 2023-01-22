@@ -88,9 +88,9 @@ Obviously, you are free to participate to the translation in any other language.
 ## Thanks
 
 - The Programming Discussion and the Coding Den Discord servers;
-- @micah-akpan for the original package: [sign-teller](https://github.com/micah-akpan/sign-teller);
-- @devmartynov for the Russian translation;
-- @alisincar for the Turkish translation.
+- [Micah Akpan](https://github.com/micah-akpan) for the original package: [sign-teller](https://github.com/micah-akpan/sign-teller);
+- [Martynov Denis](https://github.com/devmartynov) for the Russian translation;
+- [ALİ SİNCAR](alisincar) for the Turkish translation.
 
 ## License
 
