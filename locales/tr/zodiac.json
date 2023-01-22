@@ -1,0 +1,62 @@
+{
+	"aries": {
+		"name": "Koç",
+		"element": 0,
+		"stone": "kantaşı"
+	},
+	"taurus": {
+		"name": "Boğa",
+		"element": 1,
+		"stone": "safir"
+	},
+	"gemini": {
+		"name": "İkizler",
+		"element": 2,
+		"stone": "akik"
+	},
+	"cancer": {
+		"name": "Yengeç",
+		"element": 3,
+		"stone": "zümrüt"
+	},
+	"leo": {
+		"name": "Aslan",
+		"element": 0,
+		"stone": "oniks"
+	},
+	"virgo": {
+		"name": "Başak",
+		"element": 1,
+		"stone": "karnelyan"
+	},
+	"libra": {
+		"name": "Terazi",
+		"element": 2,
+		"stone": "krizolit"
+	},
+	"scorpio": {
+		"name": "Akrep",
+		"element": 3,
+		"stone": "beril"
+	},
+	"sagittarius": {
+		"name": "Yay",
+		"element": 0,
+		"stone": "topaz"
+	},
+	"capricorn": {
+		"name": "Oğlak",
+		"element": 1,
+		"stone": "yakut"
+	},
+	"aquarius": {
+		"name": "Kova",
+		"element": 2,
+		"stone": "lal taşı"
+	},
+	"pisces": {
+		"name": "Balık",
+		"element": 3,
+		"stone": "ametist"
+	}
+}
