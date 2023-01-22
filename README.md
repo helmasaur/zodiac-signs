@@ -76,20 +76,21 @@ An integer is returned if the given parameter is wrong:
 
 ## Translation
 
-For the moment, the only avaible languages are English and French.
-
-Obviously, you are free to participate to the translation in any other language.
-
 ### Available languages
 
-- English
-- French
-- Russian
+- English (en)
+- French (fr)
+- Russian (ru)
+- Turkish (tr)
+
+Obviously, you are free to participate to the translation in any other language.
 
 ## Thanks
 
 - The Programming Discussion and the Coding Den Discord servers;
-- Micah Akpan for the original package: [sign-teller](https://github.com/micah-akpan/sign-teller).
+- @micah-akpan for the original package: [sign-teller](https://github.com/micah-akpan/sign-teller);
+- @devmartynov for the Russian translation;
+- @alisincar for the Turkish translation.
 
 ## License
 
