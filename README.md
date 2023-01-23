@@ -90,7 +90,7 @@ Obviously, you are free to participate to the translation in any other language.
 - The Programming Discussion and the Coding Den Discord servers;
 - [Micah Akpan](https://github.com/micah-akpan) for the original package: [sign-teller](https://github.com/micah-akpan/sign-teller);
 - [Martynov Denis](https://github.com/devmartynov) for the Russian translation;
-- [ALİ SİNCAR](alisincar) for the Turkish translation.
+- [ALİ SİNCAR](https://github.com/alisincar) for the Turkish translation.
 
 ## License
 
