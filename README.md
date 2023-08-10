@@ -79,6 +79,7 @@ An integer is returned if the given parameter is wrong:
 ### Available languages
 
 - English (en)
+- German (de)
 - French (fr)
 - Italian (it)
 - Russian (ru)
@@ -92,7 +93,7 @@ Obviously, you are free to participate to the translation in any other language.
 - [Micah Akpan](https://github.com/micah-akpan) for the original package: [sign-teller](https://github.com/micah-akpan/sign-teller);
 - [Martynov Denis](https://github.com/devmartynov) for the Russian translation;
 - [ALİ SİNCAR](https://github.com/alisincar) for the Turkish translation.
-- [Marseglia Vito](https://github.com/VitoMars) for the Italian translation.
+- [Vito Marseglia](https://github.com/VitoMars) for the Italian and German translation.
 
 ## License
 
