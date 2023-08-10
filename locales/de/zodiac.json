@@ -1,0 +1,62 @@
+{
+	"aries": {
+		"name": "Widder",
+		"element": 0,
+		"stone": "heliotrop"
+	},
+	"taurus": {
+		"name": "Stier",
+		"element": 1,
+		"stone": "saphir"
+	},
+	"gemini": {
+		"name": "Zwillinge",
+		"element": 2,
+		"stone": "achat"
+	},
+	"cancer": {
+		"name": "Krebs",
+		"element": 3,
+		"stone": "smaragd"
+	},
+	"leo": {
+		"name": "Löwe",
+		"element": 0,
+		"stone": "onyx"
+	},
+	"virgo": {
+		"name": "Jungfrau",
+		"element": 1,
+		"stone": "karneol"
+	},
+	"libra": {
+		"name": "Waage",
+		"element": 2,
+		"stone": "chrysolith"
+	},
+	"scorpio": {
+		"name": "Skorpion",
+		"element": 3,
+		"stone": "beryll"
+	},
+	"sagittarius": {
+		"name": "Schütze",
+		"element": 0,
+		"stone": "topas"
+	},
+	"capricorn": {
+		"name": "Steinbock",
+		"element": 1,
+		"stone": "rubin"
+	},
+	"aquarius": {
+		"name": "Wassermann",
+		"element": 2,
+		"stone": "granat"
+	},
+	"pisces": {
+		"name": "Fische",
+		"element": 3,
+		"stone": "amethyst"
+	}
+}
