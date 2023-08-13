@@ -93,7 +93,7 @@ Obviously, you are free to participate to the translation in any other language.
 - [Micah Akpan](https://github.com/micah-akpan) for the original package: [sign-teller](https://github.com/micah-akpan/sign-teller);
 - [Martynov Denis](https://github.com/devmartynov) for the Russian translation;
 - [ALİ SİNCAR](https://github.com/alisincar) for the Turkish translation.
-- [Rychart Redwerkz](https://github.com/redwerkz) for the German translation.
+- [Marc Redwerkz](https://github.com/rdwz) for the German translation.
 - [Marseglia Vito](https://github.com/VitoMars) for the Italian translation.
 
 ## License
