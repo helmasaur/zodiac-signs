@@ -1,6 +1,6 @@
 module.exports = defaultLanguage => {
 	return {
-		getSignByDate: ({ day, month} = {day: new Date().getDate(), month: new Date().getMonth() + 1 }, language = defaultLanguage) => {
+		getSignByDate: ({ day, month } = {day: new Date().getDate(), month: new Date().getMonth() + 1 }, language = defaultLanguage) => {
 			return getSignByDate({ day, month }, language);
 		},
 		getSignByName: (signName, language = defaultLanguage) => {
