@@ -1,0 +1,62 @@
+{
+	"aries": {
+		"name": "Väduren",
+		"element": 0,
+		"stone": "blodsten"
+	},
+	"taurus": {
+		"name": "Oxen",
+		"element": 1,
+		"stone": "safir"
+	},
+	"gemini": {
+		"name": "Tvillingarna",
+		"element": 2,
+		"stone": "agat"
+	},
+	"cancer": {
+		"name": "Kräftan",
+		"element": 3,
+		"stone": "emerald"
+	},
+	"leo": {
+		"name": "Lejonet",
+		"element": 0,
+		"stone": "onyx"
+	},
+	"virgo": {
+		"name": "Jungfrun",
+		"element": 1,
+		"stone": "karneol"
+	},
+	"libra": {
+		"name": "Vågen",
+		"element": 2,
+		"stone": "krysotil"
+	},
+	"scorpio": {
+		"name": "Skorpionen",
+		"element": 3,
+		"stone": "beryll"
+	},
+	"sagittarius": {
+		"name": "Skytten",
+		"element": 0,
+		"stone": "topas"
+	},
+	"capricorn": {
+		"name": "Stenbocken",
+		"element": 1,
+		"stone": "rubin"
+	},
+	"aquarius": {
+		"name": "Vattumannen",
+		"element": 2,
+		"stone": "granat"
+	},
+	"pisces": {
+		"name": "Fiskarna",
+		"element": 3,
+		"stone": "ametist"
+	}
+}
