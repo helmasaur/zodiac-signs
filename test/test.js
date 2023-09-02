@@ -3,11 +3,11 @@ const assert = require('assert');
 
 describe('zodiac.getSignByDate()', function() {
 	it('should get the zodiac sign\'s information based on a date', function() {
-		// assert.deepEqual(zodiac.getSignByDate(), zodiac.getSignByDate());
+		assert.deepEqual(zodiac.getSignByDate(), zodiac.getSignByDate());
 
 	it('should get the zodiac sign\'s information based on a date (French override)', function() {
-		// assert.deepEqual(zodiac.getSignByDate(undefined, 'fr'), zodiac.getSignByDate(), 'fr');
-		// assert.deepEqual(zodiac.getSignByDate(undefined, 'fr-FR'), zodiac.getSignByDate(), 'fr-FR');
+		assert.deepEqual(zodiac.getSignByDate(undefined, 'fr'), zodiac.getSignByDate(), 'fr');
+		assert.deepEqual(zodiac.getSignByDate(undefined, 'fr-FR'), zodiac.getSignByDate(), 'fr-FR');
 	});
 });
 
@@ -28,12 +28,12 @@ describe('zodiac.getSignByDate(signDate)', function() {
 
 describe('zodiac.getSignByName(signName)', function() {
 	it('should get the zodiac sign\'s information based on a name', function() {
-		//assert.deepEqual(zodiac.getSignByName('cancer'),  { "name": "Cancer", "element": "water", "stone": "emerald", "symbol": "♋", "dateMin": "2000-06-22", "dateMax": "2000-07-22" });
+		assert.deepEqual(zodiac.getSignByName('cancer'),  { "name": "Cancer", "element": "water", "stone": "emerald", "symbol": "♋", "dateMin": "2000-06-22", "dateMax": "2000-07-22" });
 	});
 
 	it('should get the zodiac sign\'s information based on a date (French override)', function() {
-		// assert.deepEqual(zodiac.getSignByName('cancer', 'fr'), { "name": "Cancer", "element": "eau", "stone": "émeraude", "symbol": "♋", "dateMin": "2000-06-22", "dateMax": "2000-07-22" });
-		// assert.deepEqual(zodiac.getSignByName('cancer', 'fr-FR'),  { "name": "Cancer", "element": "eau", "stone": "émeraude", "symbol": "♋", "dateMin": "2000-06-22", "dateMax": "2000-07-22" }));
+		assert.deepEqual(zodiac.getSignByName('cancer', 'fr'), { "name": "Cancer", "element": "eau", "stone": "émeraude", "symbol": "♋", "dateMin": "2000-06-22", "dateMax": "2000-07-22" });
+		assert.deepEqual(zodiac.getSignByName('cancer', 'fr-FR'),  { "name": "Cancer", "element": "eau", "stone": "émeraude", "symbol": "♋", "dateMin": "2000-06-22", "dateMax": "2000-07-22" });
 	});
 
 	it('should return the error code -1 when the name is invalid', function() {
@@ -48,9 +48,9 @@ describe('zodiac.getSignByName(signName)', function() {
 });
 
 describe('zodiac.getSignBySymbol(signSymbol)', function() {
-	// it('should get the zodiac sign\'s information based on a symbol', function() {
-	// 	assert.deepEqual(zodiac.getSignBySymbol('♋'),  { "name": "Cancer", "element": "water", "stone": "emerald", "symbol": "♋", "dateMin": "2000-06-22", "dateMax": "2000-07-22" });
-	// });
+	it('should get the zodiac sign\'s information based on a symbol', function() {
+		assert.deepEqual(zodiac.getSignBySymbol('♋'),  { "name": "Cancer", "element": "water", "stone": "emerald", "symbol": "♋", "dateMin": "2000-06-22", "dateMax": "2000-07-22" });
+	});
 
 	it('should return the error code -1 when the symbol is invalid', function() {
 		assert.deepEqual(zodiac.getSignBySymbol('♾'), -2);
