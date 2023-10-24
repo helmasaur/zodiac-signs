@@ -93,7 +93,7 @@ Obviously, you are free to participate to the translation in any other language.
 - [Micah Akpan](https://github.com/micah-akpan) for the original package: [sign-teller](https://github.com/micah-akpan/sign-teller);
 - [The Programming Discussion](https://discord.gg/progdisc) and the [Coding Den](https://discord.gg/code) Discord servers;
 - [Martynov Denis](https://github.com/devmartynov) for the Russian translation;
-- [ALİ SİNCAR](https://github.com/alisincar) for the Turkish translation.
+- [ALİ SİNCAR](https://github.com/alisincar) for the Turkish translation;
 - [Vito Marseglia](https://github.com/VitoMars) for the Italian, Spanish and German translation.
 
 ## License
