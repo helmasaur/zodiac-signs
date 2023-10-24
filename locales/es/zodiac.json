@@ -1,0 +1,62 @@
+{
+	"aries": {
+		"name": "Aries",
+		"element": 0,
+		"stone": "heliotropo"
+	},
+	"taurus": {
+		"name": "Tauro",
+		"element": 1,
+		"stone": "zafiro"
+	},
+	"gemini": {
+		"name": "Géminis",
+		"element": 2,
+		"stone": "ágata"
+	},
+	"cancer": {
+		"name": "Cáncer",
+		"element": 3,
+		"stone": "esmeralda"
+	},
+	"leo": {
+		"name": "Leo",
+		"element": 0,
+		"stone": "ónix"
+	},
+	"virgo": {
+		"name": "Virgo",
+		"element": 1,
+		"stone": "cornalina"
+	},
+	"libra": {
+		"name": "Libra",
+		"element": 2,
+		"stone": "crisólito"
+	},
+	"scorpio": {
+		"name": "Escorpio",
+		"element": 3,
+		"stone": "berilo"
+	},
+	"sagittarius": {
+		"name": "Sagitario",
+		"element": 0,
+		"stone": "topacio"
+	},
+	"capricorn": {
+		"name": "Capricornio",
+		"element": 1,
+		"stone": "rubí"
+	},
+	"aquarius": {
+		"name": "Acuario",
+		"element": 2,
+		"stone": "granate"
+	},
+	"pisces": {
+		"name": "Piscis",
+		"element": 3,
+		"stone": "amatista"
+	}
+}
