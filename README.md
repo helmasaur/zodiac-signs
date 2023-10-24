@@ -79,6 +79,7 @@ An integer is returned if the given parameter is wrong:
 ### Available languages
 
 - English (en)
+- Spanish (es)
 - French (fr)
 - German (de)
 - Italian (it)
@@ -95,6 +96,8 @@ Obviously, you are free to participate to the translation in any other language.
 - [ALİ SİNCAR](https://github.com/alisincar) for the Turkish translation.
 - [Marc Redwerkz](https://github.com/rdwz) for the German translation.
 - [Marseglia Vito](https://github.com/VitoMars) for the Italian translation.
+- [ALİ SİNCAR](https://github.com/alisincar) for the Turkish translation;
+- [Vito Marseglia](https://github.com/VitoMars) for the Italian and Spanish translation.
 
 ## License
 
