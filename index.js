@@ -1,4 +1,13 @@
+const regex = new RegExp('^[a-z]{2}(-[A-Z]{2})?$'); // xx-YY
+
 module.exports = defaultLanguage => {
+	// Language format verification
+	if (regex.test(defaultLanguage)) { // Language format (xx-YY) verification
+		defaultLanguage = language.substring(0, 2);
+	} else {
+		defaultLanguage = 'en';
+	}
+
 	return {
 		getSignByDate: ({ day, month } = { day: new Date().getDate(), month: new Date().getMonth() + 1 }, language = defaultLanguage) => {
 			return getSignByDate({ day, month }, language);
