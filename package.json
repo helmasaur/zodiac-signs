@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "docs": "jsdoc2md index.js > docs/API.md",
     "test": "mocha"
   },
   "repository": {
@@ -29,6 +30,7 @@
   },
   "homepage": "https://github.com/helmasaur/zodiac-signs#readme",
   "devDependencies": {
+    "jsdoc-to-markdown": "^8.0.0",
     "mocha": "^10.2.0"
   }
 }
