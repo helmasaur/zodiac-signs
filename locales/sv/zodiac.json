@@ -2,7 +2,7 @@
 	"aries": {
 		"name": "Väduren",
 		"element": 0,
-		"stone": "blodsten"
+		"stone": "heliotrop"
 	},
 	"taurus": {
 		"name": "Oxen",
@@ -17,7 +17,7 @@
 	"cancer": {
 		"name": "Kräftan",
 		"element": 3,
-		"stone": "emerald"
+		"stone": "smaragd"
 	},
 	"leo": {
 		"name": "Lejonet",
