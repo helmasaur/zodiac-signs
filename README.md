@@ -83,6 +83,7 @@ An integer is returned if the given parameter is wrong:
 - French (fr)
 - Italian (it)
 - Russian (ru)
+- Swedish (sv)
 - Turkish (tr)
 
 Obviously, you are free to participate to the translation in any other language.
@@ -93,7 +94,8 @@ Obviously, you are free to participate to the translation in any other language.
 - [The Programming Discussion](https://discord.gg/progdisc) and the [Coding Den](https://discord.gg/code) Discord servers;
 - [Martynov Denis](https://github.com/devmartynov) for the Russian translation;
 - [ALİ SİNCAR](https://github.com/alisincar) for the Turkish translation;
-- [Vito Marseglia](https://github.com/VitoMars) for the Italian and Spanish translation.
+- [Vito Marseglia](https://github.com/VitoMars) for the Italian and Spanish translation;
+- [Peter Rymdfabriken](peter-rymdfabriken) for the Swedish translation.
 
 ## License
 
