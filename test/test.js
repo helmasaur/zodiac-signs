@@ -36,6 +36,10 @@ describe('zodiac.getSignByName(signName)', function() {
 		assert.deepEqual(zodiac.getSignByName('cancer', 'fr-FR'),  { "name": "Cancer", "element": "eau", "stone": "émeraude", "symbol": "♋", "dateMin": "2000-06-22", "dateMax": "2000-07-22" });
 	});
 
+	it('should get the zodiac sign\'s information based on a name (Vietnamese override)', function() {
+		assert.deepEqual(zodiac.getSignByName('cự giải', 'vi'), { "name": "Cự Giải", "element": "nước", "stone": "ngọc lục bảo", "symbol": "♋", "dateMin": "2000-06-22", "dateMax": "2000-07-22" });
+	});
+
 	it('should return the error code -1 when the name is invalid', function() {
 		assert.deepEqual(zodiac.getSignByName('ophiuchus'), -2);
 		assert.deepEqual(zodiac.getSignByName(-1), -2);
