@@ -1,22 +1,31 @@
-module.exports = defaultLanguage => {
+const regex = new RegExp('^[a-z]{2}(-[A-Z]{2})?$'); // xx-YY
+
+module.exports = defaultLanguage => { 
+	// Language format verification
+	if (regex.test(defaultLanguage)) { // Language format (xx-YY) verification
+		defaultLanguage = defaultLanguage.substring(0, 2);
+	} else {
+		defaultLanguage = 'en';
+	}
+
 	return {
 		getSignByDate: ({ day, month } = { day: new Date().getDate(), month: new Date().getMonth() + 1 }, language = defaultLanguage) => {
 			return getSignByDate({ day, month }, language);
 		},
 		getSignByName: (signName, language = defaultLanguage) => {
-			return getSignByName(signName, language);
+			return getSignByName(signName, parseLanguage(language));
 		},
 		getSignBySymbol: (signSymbol, language = defaultLanguage) => {
-			return getSignBySymbol(signSymbol, language);
+			return getSignBySymbol(signSymbol, parseLanguage(language));
 		},
 		getSymbols: () => {
 			return getSymbols();
 		},
 		getNames: (language = defaultLanguage) => {
-			return getNames(language);
+			return getNames(parseLanguage(language));
 		},
 		getElements: (language = defaultLanguage) => {
-			return getElements(language);
+			return getElements(parseLanguage(language));
 		}
 	}
 };
@@ -140,6 +149,17 @@ const getElement = (sign, language) => {
 
 	return sign;
 };
+
+const parseLanguage = language => {
+	const regex = new RegExp('^[a-z]{2}(-[A-Z]{2})?$');  // xx-YY
+
+	// Language format (xx-YY) verification
+	if (regex.test(language)) {
+		language = language.substring(0, 2);
+	}
+
+	return language;
+}
 
 const parseDate = (language) => {
 };
