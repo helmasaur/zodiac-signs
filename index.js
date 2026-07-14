@@ -64,7 +64,8 @@ const getSignByName = (signName, language) => {
 		return -2;
 	}
 
-	const index = getNames(language).indexOf(signName.charAt(0).toUpperCase() + signName.slice(1));
+	const normalizedSignName = signName.replace(/^.| ./g, (chars) => chars.toUpperCase());
+	const index = getNames(language).indexOf(normalizedSignName);
 
 	return getSignByIndex(index, language);
 };

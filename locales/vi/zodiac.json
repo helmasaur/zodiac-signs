@@ -1,0 +1,62 @@
+{
+	"aries": {
+		"name": "Bạch Dương",
+		"element": 0,
+		"stone": "huyết ngọc"
+	},
+	"taurus": {
+		"name": "Kim Ngưu",
+		"element": 1,
+		"stone": "lam ngọc"
+	},
+	"gemini": {
+		"name": "Song Tử",
+		"element": 2,
+		"stone": "mã não"
+	},
+	"cancer": {
+		"name": "Cự Giải",
+		"element": 3,
+		"stone": "ngọc lục bảo"
+	},
+	"leo": {
+		"name": "Sư Tử",
+		"element": 0,
+		"stone": "mã não đen"
+	},
+	"virgo": {
+		"name": "Xử Nữ",
+		"element": 1,
+		"stone": "mã não đỏ"
+	},
+	"libra": {
+		"name": "Thiên Bình",
+		"element": 2,
+		"stone": "đá ô liu"
+	},
+	"scorpio": {
+		"name": "Bọ Cạp",
+		"element": 3,
+		"stone": "ngọc xanh biển"
+	},
+	"sagittarius": {
+		"name": "Nhân Mã",
+		"element": 0,
+		"stone": "hoàng ngọc"
+	},
+	"capricorn": {
+		"name": "Ma Kết",
+		"element": 1,
+		"stone": "hồng ngọc"
+	},
+	"aquarius": {
+		"name": "Bảo Bình",
+		"element": 2,
+		"stone": "ngọc hồng lựu"
+	},
+	"pisces": {
+		"name": "Song Ngư",
+		"element": 3,
+		"stone": "thạch anh tím"
+	}
+}
