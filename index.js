@@ -145,7 +145,10 @@ const getElement = (sign, language) => {
 		elementsData = require('./locales/en/elements.json');
 	}
 
-	sign.element = elementsData[sign.element];
+	// Ensure the element key exists in the elementsData
+  if (elementsData[sign.element]) {
+    sign.element = elementsData[sign.element];
+  }
 
 	return sign;
 };
